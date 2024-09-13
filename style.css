@@ -1,0 +1,64 @@
+div.city {
+    border-style: solid;
+    border: 1px rgb(black);
+    margin:8px 32px 32px 16px;
+    padding: 32px 16px 32px 16px;
+}
+p{
+    color: blue;
+}
+p:first-child{
+    color: red;
+}
+p:nth-child(3){
+    color: aqua;
+}
+p:last-child{
+    color: blueviolet;
+}
+div.phone{width: 75px;
+    height: 75px;
+    border-style: solid;
+    border-color:black;
+}
+div.phone:hover{width: 75px;
+    height: 75px;
+    border-style: solid;
+    border-color: red;
+}
+div.car{
+    height: 50px;
+    width: 250px;
+    border-style: solid;
+    border-color:black;
+   
+}
+div.carname{
+    height: 50%;
+    width: 25%;
+    border-style: solid;
+    border-color:black;
+}
+
+h1::before {
+    content: "inainte";
+}
+h1::after {
+    content: "dupa";
+}
+
+div.text1{
+    font-size: 2rem;
+}
+div.text2{
+    font-size: 2em;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+div.ecran{
+    background-color: red;
+    height: 75vh;
+    width: 75vw;
+}
